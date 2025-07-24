@@ -1,0 +1,39 @@
+/* Basic reset and styling */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* Flex container */
+.flex-container {
+  display: flex;             /* Turn it into a flexbox */
+  flex-direction: column;    /* Stack boxes vertically by default (mobile-first) */
+  gap: 20px;                 /* Space between boxes */
+  align-items: center;       /* Center boxes horizontally */
+}
+
+/* Individual boxes */
+.box {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Media query to change layout on larger screens */
+@media (min-width: 768px) {
+  .flex-container {
+    flex-direction: row;         /* Now lay boxes side-by-side */
+    justify-content: center;     /* Center them horizontally */
+  }
+}
