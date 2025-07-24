@@ -1,0 +1,35 @@
+/* CSS FOR CALC | Project by Ibarra */
+
+/* Color scheme to use  */
+/* Color hex code: #4CAF50; */
+
+
+/* BODY STYLES STARTS HERE */
+
+/* Will be adjusted per design */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; 
+  color: #00D18C;
+  background-color: #000; 
+}
+
+.logo {
+  font-size: 3rem;
+  text-transform: lowercase;
+  letter-spacing: -1px; 
+}
+
+
+
+/* BODY STYLES ENDS HERE */
+
+
+
+/* FLEXBOX STARTS HERE */
+
+
+
+
+
+/* FLEXBOX ENDS HERE  */
