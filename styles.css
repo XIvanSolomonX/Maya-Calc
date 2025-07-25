@@ -2,16 +2,16 @@
 
 /* Color scheme to use  */
 /* Color hex code: #4CAF50; */
-
+/* Green2:  #5FCB83 */
+/* Darkish grey: #202122*/
 
 /* BODY STYLES STARTS HERE */
 
 /* Will be adjusted per design */
 body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700; 
-  color: #00D18C;
-  background-color: #000; 
+  /* font-family: 'Poppins', sans-serif;
+  font-weight: 700;  */
+  background-color: #5FCB83; 
 }
 
 .logo {
